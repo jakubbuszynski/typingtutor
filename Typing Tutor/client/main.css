@@ -1,0 +1,33 @@
+/* CSS declarations go here */
+body{
+	background-image: url('/patterns/tweed/tweed.png');
+	color:#cccccc;
+	font-family: 'OpenSansLight';
+	line-height: 22px;
+}
+
+body, html, .container-fluid {
+  height: 100%;
+}
+
+.absolute{
+	position: absolute;
+}
+
+.relative{
+	position:relative;
+	display: block;
+}
+
+.center {
+     float: none;
+     margin-right: auto;
+     margin-left: auto;
+}
+
+@media (max-width: 979px){
+	.navbar-fixed-bottom {
+		position: fixed;
+		margin-top: 20px;
+	}
+}
